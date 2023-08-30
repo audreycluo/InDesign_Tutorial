@@ -11,10 +11,10 @@ InDesign is amazing for **multi-panel figures**: you can lay out each panel, ali
 InDesign is NOT good for creating or editting details of a graphic - leave graphic design (or manipulating details of your figures) to good ol' Illustrator. 
 
 ## Table of Contents
-1. [Install InDesign](#Install-InDesign)
-2. [Set Up Your First InDesign Document](#Set-Up-Your-First-InDesign-Document)
-3. [Brief Overview of Relevant InDesign Tools](#Brief-Overview-of-Relevant-InDesign-Tools)
-4. [Example of a Simple InDesign Workflow ](#Example-of-a-Simple-InDesign-Workflow)
+1. Install InDesign 
+2. Set Up Your First InDesign Document 
+3. Brief Overview of Relevant InDesign Tools 
+4. Example of a Simple InDesign Workflow
 
 
 ## 1. Install InDesign
@@ -75,7 +75,7 @@ B. **Frame Fitting**: Helps manipulate placed images and text. \
 
 <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
 
-## 4. Example of a Simple InDesign Workflow
+## 4. Example of a Simple InDesign Workflow  
 A few principles to keep in mind as we start figure-making in InDesign:
 * Have your figure layout already sketched out either on paper or Powerpoint or in your mind's eye. Don't jump into InDesign without already knowing how you want your figure to look. 
 * To maximize automation, reproducibility, and consistency, try to make sure the images you save out from RStudio or Python look as close to the final figure panel as possible. For example, have your labels, tick marks, image size, etc. be as clean as possible. It is fine for you to save out each panel separately; you can also save them out in a grid arrangement (via packages like cowplot, ggarrange, etc. in R) that reflects what you want for your final product. 
@@ -121,6 +121,8 @@ Using the **Frame Tool**, click and drag to create a large rectangle where your 
 <video width="800" controls>
   <source src="./images/FramesSetUp.mov" type="video/mp4">
 </video> 
+
+<video src='./images/FramesSetUp.mov' width=180/> 
 
 *Note* you can also [create guides](https://helpx.adobe.com/indesign/using/ruler-guides.html) that help you line up images by clicking and dragging the X or Y axis ruler. (Not shown in video.) 
 #### 2. Next, place the plots into each frame.
