@@ -23,7 +23,7 @@ You can download InDesign via Adobe Creative Cloud, which I believe you should h
 ## 2. Set Up Your First InDesign Document
 I typically make one InDesign document for each multi-panel figure. After opening up InDesign, click "New File". You can choose your document size, which will depend on how big you want to figure to be. Nature, for example, suggests preparing figures to fit PDF page size: 210 x 276 mm. We will work with this figure size in this tutorial.
 
-Toggle your units to "mm", and enter your figure width and height. 
+Toggle your units to "mm", and enter your figure width and height. <br> 
 <img src="./images/DocSetup.jpg" height="500"/>
 
 Click "Create", and voilà! You now have a brand new document where you can build your figure.
@@ -73,7 +73,7 @@ B. **Frame Fitting**: Helps manipulate placed images and text. \
     - *Auto-Fit*: I strongly suggest always having Auto-Fit selected; this allows the image to be resized as you resize the frame. If you have Auto-Fit deselected, you essentially are working with a crop tool, where you can resize the frame while the image inside is static. \
     - *Fill frame proportionally* and *Fit content proportionally*: the first two little squares in this row. I tend to use one of these to make sure my placed image fits the frame just right and to reduce white space.  
 
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
 ## 4. Example of a Simple InDesign Workflow  
 A few principles to keep in mind as we start figure-making in InDesign:
@@ -121,8 +121,7 @@ Using the **Frame Tool**, click and drag to create a large rectangle where your 
 <video width="800" controls>
   <source src="./images/FramesSetUp.mov" type="video/mp4">
 </video> 
-
-<video src='./images/FramesSetUp.mov' width=180/> 
+ 
 
 *Note* you can also [create guides](https://helpx.adobe.com/indesign/using/ruler-guides.html) that help you line up images by clicking and dragging the X or Y axis ruler. (Not shown in video.) 
 #### 2. Next, place the plots into each frame.
@@ -135,12 +134,14 @@ Now, you have a gorgeous initial layout of your figure in < 2 minutes. No resizi
 <video width="800" controls>
   <source src="./images/Place.mov" type="video/mp4">
 </video> 
+ 
 
+<br>
 <img align="center" style="margin:16px;" src="./images/Initial.png" height="500"/> 
 <p>
     <em>Product of exactly 1 min 52 seconds of work in InDesign! YAYYY!!</em>
 </p>
-
+<br>
 #### 3. Now, we can add panel labels and text. 
 Using the **Frame Tool**, we can make placeholders for panel labels (a, b, c, d) and titles (dataset names). We can copy and paste each pair of frames (label + title) for each panel so they're all the same size. We can also make sure that the frames are all aligned by selecting pairs of frames and clicking the appropriate alignment in the **Control Panel**. 
 
@@ -190,7 +191,7 @@ Say I want to update my figures to be a totally different color scheme - purple 
 
 After saving out the new plots, make sure InDesign is closed. Reopen the InDesign document, and you should get this error message: 
 
-<img align="center" style="margin:16px;" src="Error.png" height="200"/> 
+<img align="center" style="margin:16px;" src="./images/Error.png" height="200"/> 
 
 Click "Update Modified Links", and let InDesign do its magic!!!!!
 
@@ -199,14 +200,16 @@ Click "Update Modified Links", and let InDesign do its magic!!!!!
 </video> 
 
 <br>
-Note that you still need to update the legend in Illustrator. I would rename the original Illustrator file for the legend with an "_old" tag, and save the purple-yellow legend with the original filename. Then update InDesign:
+Note that you still need to update the legend in Illustrator. I would rename the original Illustrator file for the legend with an "_old" tag, and save the purple-yellow legend with the original filename. Then update InDesign: 
+<br>
 
 <video width="800" controls>
   <source src="./images/UpdateLegend.mov" type="video/mp4">
 </video> 
 
+<br>
 View the document using "Normal" (View > Screen Mode > Normal) and click the little caution icon by the legend to update the link. And you're done!!
-
+<br>
 
 <img align="center" style="margin:16px;" src="./images/PY_Figure.png" height="400"/> 
 <p>
